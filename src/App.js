@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
-import BankContractClient from './BankContractClient';
+import BankContractClientGeth from './BankContractClientGeth';
+import BankContractClientMetamask from './BankContractClientMetamask'
 import TokenContractClient from './TokenContractClient';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <BankContractClient />
+        {/* <BankContractClientGeth /> */}
         <TokenContractClient />
+        <BankContractClientMetamask />
       </div>
     );
   }
