@@ -1,6 +1,6 @@
 // import React from 'react';
 // import { Formik, Field } from 'formik';
-// import BankContract from './BankContract.js';
+// import BankContract from './contracts/BankContract.js';
 
 // var Web3 = require('web3');
 // var web3 = new Web3(new Web3.providers.HttpProvider('http://127.0.0.1:8545'));
