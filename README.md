@@ -33,3 +33,8 @@ Deploy your Contract to Rinkeby Testnet through Truffle (Warning! It will cost g
 ```bash
 truffle migrate --network rinkeby
 ```
+
+For re-run all the migration steps:
+```bash
+truffle migrate --network rinkeby --reset
+```
