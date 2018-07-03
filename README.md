@@ -1,9 +1,12 @@
 ## A Simple Ethereum Client Based on ReactJS & web3JS
 
 ## Test on Truffle Develop Blockchain
-Launch truffle develop blockchain
+Launch truffle develop blockchain and run unittest
 ```bash
 truffle develop
+
+#Run test under truffle develop console
+truffle(develop)> test
 ```
 
 Run truffle unittests
