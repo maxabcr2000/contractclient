@@ -9,11 +9,6 @@ truffle develop
 truffle(develop)> test
 ```
 
-Run truffle unittests
-```bash
-truffle test 
-```
-
 ## Deploy your contracts to Rinkeby Testnet through Truffle
 
 ### Requirements
