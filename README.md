@@ -39,3 +39,6 @@ For re-run all the migration steps:
 ```bash
 truffle migrate --network rinkeby --reset
 ```
+
+### Reference
+- [What is an Ethereum keystore file?](https://medium.com/@julien.maffre/what-is-an-ethereum-keystore-file-86c8c5917b97)
