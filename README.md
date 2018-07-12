@@ -40,5 +40,19 @@ For re-run all the migration steps:
 truffle migrate --network rinkeby --reset
 ```
 
+## Import your account to geth keystore
+
+### Requirements
+- Go Ethereum (Geth)
+
+```bash
+#Save your ethereum private key into a file
+vim private.txt
+
+#Import your private key into geth keystore and use passphrase to encrypt it
+geth account import private.txt
+
+```
+
 ### Reference
 - [What is an Ethereum keystore file?](https://medium.com/@julien.maffre/what-is-an-ethereum-keystore-file-86c8c5917b97)
