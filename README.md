@@ -45,11 +45,13 @@ truffle migrate --network rinkeby --reset
 ### Requirements
 - Go Ethereum (Geth)
 
+Save your ethereum private key into a file
 ```bash
-#Save your ethereum private key into a file
 vim private.txt
+```
 
-#Import your private key into geth keystore and use passphrase to encrypt it
+Import your private key into geth keystore and use passphrase to encrypt it
+```bash
 geth account import private.txt
 
 INFO [07-11|22:28:12] Maximum peer count                       ETH=25 LES=0 total=25
@@ -57,14 +59,15 @@ Your new account is locked with a password. Please give a password. Do not forge
 Passphrase: 
 Repeat passphrase: 
 Address: {<Your ethereum account address(public key)>}
+```
 
-#Check the location and info of keystore files
+Check the location and info of keystore files
+```bash
 geth account list
 
 INFO [07-11|22:39:53] Maximum peer count                       ETH=25 LES=0 total=25
 Account #0: {XXXXXXXX} keystore:///home/osboxes/.ethereum/keystore/UTC--2017-04-28T08-46-27.XXXXXXXXXXXXXX
 Account #1: {XXXXXXXX} keystore:///home/osboxes/.ethereum/keystore/UTC--2017-04-28T08-46-52.XXXXXXXXXXXXXX
-
 ```
 
 ### Reference
